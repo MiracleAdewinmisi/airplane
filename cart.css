@@ -1,0 +1,224 @@
+body{
+    width: 100%;
+}
+
+.section-p1{
+    padding: 100px 80px;
+}
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+    border-radius: 5px;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3){
+    width: 200px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+
+#cart table tbody td{
+    font-size: 13px;
+}
+
+.cart-total{
+    position: relative;
+    left: 750px;
+    border: 1px solid #e2e9e1 10px;
+    border-left: none;
+    border-left: none;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cart-total-price{
+    position: relative;
+    left: 20px;
+}
+.btn-purchase{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    left: 500px;
+    margin-top: 20px;
+}
+
+/* The next.html page */
+.fact {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+/* For Cash on Delivery Page */
+::placeholder {
+    font-size: 15px;
+}
+
+.backCard {
+    background-image: url(img/bankfav.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+/* For Payment with Card */
+.backCash {
+    background-image: url(img/banksystem1.jpg);
+    background-size: cover;
+}
+.pay {
+    background-color: #ECF1F7;
+    width: 500px;
+    margin: auto !important;
+    position: relative;
+    right: 20px;
+}
+
+.payCard {
+    width: 700px;
+    height: 470px;
+}
+
+.pdetails {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mastercard {
+    position: relative;
+    right: 50px;
+}
+
+.discover {
+    position: relative;
+    right: 20px;
+}
+
+.paypal {
+    position: relative;
+    left: 20px;
+}
+
+.americaexpress {
+    position: relative;
+    left: 50px;
+}
+
+.div59 {
+    /* border: 1px solid; */
+    width: 500px;
+    margin: auto;
+    position: relative;
+    bottom: 325px;
+    height: 300px;
+}
+.cardNo {
+    position: relative;
+    right: 150px;
+}
+
+.cardInput {
+    position: relative;
+    left: 55px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.expiringDate {
+    position: relative;
+    right: 137px;
+}
+
+.cardExpire {
+    position: relative;
+    left: 15px;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.cvCodelabel {
+    position: relative;
+    left: 300px;
+    bottom: 55px;
+}
+
+.cvCode {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.cardOwnerlabel {
+    position: relative;
+    right: 155px;
+    bottom: 35px;
+}
+
+.cardOwner {
+    position: relative;
+    right: 95px;
+    bottom: 35px;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+}
+.div77 {
+    width: 500px;
+    position: relative;
+    right: 122px;
+    /* margin: auto; */
+}

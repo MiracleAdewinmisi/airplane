@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pay with Card </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="/img/bankfav.jpg" type="image/x-icon">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body class="backCard">
+    
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Bon Taste Cucina</a>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="Home.html">home</a>
+            <a href="#speciality">speciality</a>
+            <a href="#popular">popular</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+            <!-- <a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"> <div id="badge"> 0 </div></i></a> -->
+        </nav>
+    </header>
+
+    <br><br><br><br><br><br><br>
+
+    <article class="text-center">
+        <section>
+            <p class="fs-2 fw-bold">Credit Card Payment Gateway</p>
+        </section>
+
+        <hr class="w-75 m-auto">
+
+        <section class="shadow payCard m-auto mt-3">
+            <div class="pay p-4">
+                <p class="mt-2 pb-2 pdetails">Payment Details</p>
+                <img src="img/mastercard.PNG" alt="Master Card" class="mastercard">
+                <img src="img/Discover.PNG" alt="Discover" class="discover">
+                <img src="img/Paypal.PNG" alt="Paypal" class="paypal">
+                <img src="img/Americaexpress.PNG" alt="America Express" class="americaexpress">
+            </div>
+        </section>
+        <section class="div59 border">
+            <div class="ms-auto">
+                <p class="cardNo">
+                    <label for="cardNumber" class="fw-bold fs-2">CARD NUMBER</label><br>
+                    <input class="m-auto cardInput border" type="tel" name="cardNumber" id="cardNumber" placeholder="Valid Card Number" required>
+                </p>
+                <p class="expiringDate">
+                    <label for="expiringDate" class="fw-bold fs-2">EXPIRATION DATE</label>
+                    <input type="month" name="expiringDate" id="expiringDate" class="border cardExpire" required>
+                    <label for="cvCode" class="fs-2 fw-bold cvCodelabel"> CV CODE</label>
+                    <input type="tel" name="cvCode" id="cvCode" placeholder="CVC" pattern="[0-9]{3}" class="cvCode border" required>
+                </p>
+                <p>
+                    <label for="cardOwner" class="fs-2 fw-bold cardOwnerlabel"> CARD OWNER</label>
+                    <input type="text" name="cardOwner" id="cardOwner" placeholder="Card Owner Name" class="border cardOwner" required >
+                </p>
+            </div>
+
+            <hr class="div77">
+
+            <div>
+                <button class="btn-success fs-2 p-1 w-100 rounded-3" type="submit" onclick="confirmPayment()">Confirm Payment</button>
+            </div>
+        </section>
+    </article>
+    
+
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="btn">facebook</a>
+            <a href="#" class="btn">twitter</a>
+            <a href="#" class="btn">instagram</a>
+            <a href="#" class="btn">pinterest</a>
+            <a href="#" class="btn">linkedin</a>
+        </div> 
+
+        <h1 class="credit"> created by <span> &copy; Babasola Goodness </span> all rights reserved</h1>
+
+        <p class="credits">Bon Taste Cucina uses cookie files in order to improve your online experience and for analytics. You can disable cookies in your browser settings at any moment.</p>
+    </section>
+
+
+    <!-- Scroll top button -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+
+
+    <!-- custom js file link -->
+    <script src="cart.js"></script>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

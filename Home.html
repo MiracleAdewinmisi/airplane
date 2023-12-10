@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="Home.css">
+
+    <!-- ADD To Cart JS file -->
+    <script src="cart.js" async></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Miracle Airline</a>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#speciality">Explore</a>
+            <a href="#popular">popular</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="cart.html">book</a>
+            <!-- <a href="cart.html"><i class="fa-solid fa-cart-shopping"><div id="badge"> 0 </div></i> </a> -->
+        </nav>
+    </header>
+
+
+    <script src="form.js"></script>
+
+
+
+    <!-- Home section -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <div id="form"><!--form-->
+                <h1 class="text-danger">Book A Flight</h1>
+
+                <div id="input"><!--input-->
+                    <input type="text" id="input-group" id="fromPlace" placeholder="From">
+                    <input type="text" id="input-group" id="toPlace" placeholder="To">
+                    <input type="text" id="input-group" id="date" placeholder="Departure Date">
+                    <input type="text" id="input-group" placeholder="Departure Time">
+                    <select id="input-group">
+                    </select>
+                </div><!--input-->
+
+                <div id="input2"><!--input2-->
+                    <input type="number" id="input-group" placeholder="Adult">
+                    <input type="number" id="input-group" placeholder="Children(2-11years)">
+                    <input type="number" id="input-group" placeholder="infant(under 2years)">
+                </div><!--input2-->
+
+                <div id="input3"><!--input3-->
+                    <span id="input-group" class="text-primary">Select Your Fare</span>
+                    <input type="radio" id="input-group" name="r">
+                    <label class="" for="input-group">One Way</label>
+                    <input type="radio" id="input-group" name="r">
+                    <label class="" for="input-group">Round Trip</label>
+                </div><!--input3-->
+
+                <div id="input4"><!--input4-->
+                    <input type="text" id="input-group" placeholder="Return Date">
+                    <input type="text" id="input-group" placeholder="Return time">
+                    <input type="text" id="input-group1" placeholder="Any Message">
+                </div><!--input4-->
+
+                <div id="input5"><!--input5-->
+                    <h5 class="text-danger">Personal Details</h5>
+                </div><!--input5-->
+
+                <div id="myForm" class="input6"><!--input6-->
+                    <input type="text" class="input-group" placeholder="Full Name(First name first)" id="fullName">
+                    <input type="number" class="input-group" placeholder="Phone Number" id="number">
+                    <input type="email" class="input-group1" placeholder="Email" id="email">
+                </div><!--input6-->
+                <button type="submit" onclick="submitForm()" id="submit" class="btn btn-warning text-white">Submit
+                    Form</button>
+                <button type="reset" class="btn btn-primary">Clear Form</button>
+            </div><!--form-->
+
+            <!--form-->
+            
+
+        <!-- Gallery section -->
+        <section class="gallery" id="gallery">
+
+            <h1 class="heading">Our Availabe <span> Flight </span> </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="img/london.jpg" alt="">
+                    <div class="content">
+                        <h3>London</h3>
+                        <p>26 September 2023 - 31 December 2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/dubai.jpg" alt="">
+                    <div class="content">
+                        <h3>Dubai</h3>
+                        <p>01 October 2023 - 30 October 2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/paris.jpg" alt="">
+                    <div class="content">
+                        <h3>Paris</h3>
+                        <p>01 September 2023 - 01 January 2024</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/Guangzhou.jpg" alt="">
+                    <div class="content">
+                        <h3>Guangzhou</h3>
+                        <p>07 November 2023 - 31 November 2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/kenya2.png" alt="">
+                    <div class="content">
+                        <h3>Kenya</h3>
+                        <p>03 October 2023 - 03 November 2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/usa2.jpg" alt="">
+                    <div class="content">
+                        <h3>United States of America</h3>
+                        <p>01 November 2023 - 31 December 2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/ghana2.jpg" alt="">
+                    <div class="content">
+                        <h3>Ghana</h3>
+                        <p>01 September 2023 - 02 November 2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/south korea2.jpg" alt="">
+                    <div class="content">
+                        <h3>South Korea</h3>
+                        <p>02 September 2023 - 31 December2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/newyork.jpg" alt="">
+                    <div class="content">
+                        <h3>New York</h3>
+                        <p>29 October 2023 - 30 December 2023</p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Review section -->
+        <section class="review" id="review">
+
+            <h1 class="heading"> our customers <span>reviews</span> </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="img/pic1.png" alt="">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>It makes it very convenient to get your dinner lunch or breakfast and get ur cravings satisfied.
+                        Although many restaurants mention their rates higher than what I see in the real restaurant's
+                        menu... Overall, an amazing experience 😊</p>
+                </div>
+                <div class="box">
+                    <img src="img/pic2.png" alt="">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>Bon Taste Cucina is definitely one of the most sort after apps cater to it's cosmopolitan
+                        clients, to my experience it's a 'no nonsense' tool for working people and women living in metro
+                        cities.</p>
+                </div>
+                <div class="box">
+                    <img src="img/pic3.png" alt="">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>Smooth app experience and the change in the icon for different festivals is amazing.
+                        Notifications are some of the best I have ever seen. App UX are at the point and till date did
+                        not face any bugs. All in all great app and would research on the tech-stack used 😊😊</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Order section -->
+        <section class="order" id="order">
+
+            <div id="input5"><!--input5-->
+                <h3 class="text-white">Personal Details</h3>
+            </div><!--input5-->
+
+            <div id="myForm" class="input6"><!--input6-->
+                <input type="text" class="input-group" placeholder="Full Name(First name first)" id="fullName">
+                <input type="number" class="input-group" placeholder="Phone Number" id="number">
+                <input type="email" class="input-group1" placeholder="Email" id="email">
+            </div><!--input6-->
+            <button type="submit" onclick="submitForm()" id="submit" class="btn btn-warning text-danger">Submit
+                Form</button>
+            <button type="reset" class="btn btn-primary">Clear Form</button>
+            </div><!--form-->
+
+            </form><!--form-->
+
+        </section>
+
+
+        <!-- Footer section -->
+        <section class="footer">
+
+            <div class="share">
+                <a href="#" class="btn">facebook</a>
+                <a href="#" class="btn">twitter</a>
+                <a href="#" class="btn">instagram</a>
+                <a href="#" class="btn">pinterest</a>
+                <a href="#" class="btn">linkedin</a>
+            </div>
+
+            <h1 class="credit"> created by <span> Babasola Goodness </span> all rights reserved</h1>
+
+            <p class="credits">Bon Taste Cucina uses cookie files in order to improve your online experience and for
+                analytics. You can disable cookies in your browser settings at any moment.</p>
+        </section>
+
+
+        <!-- Scroll top button -->
+        <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+
+        <!-- Loader -->
+        <div class="loader-container">
+            <img src="img/loader.gif" alt="">
+        </div>
+
+
+
+
+
+        <!-- custom js file link -->
+        <script src="script.js"></script>
+</body>
+
+</html>

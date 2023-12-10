@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pay on Delivery </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- <link rel="shortcut icon" href="/img/atmm.jpg" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="img/atmm.jpg" type="image/x-icon">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body class="backCash">
+    
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Bon Taste Cucina</a>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="Home.html">home</a>
+            <a href="#speciality">speciality</a>
+            <a href="#popular">popular</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+            <!-- <a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"> <div id="badge"> 0 </div></i></a> -->
+        </nav>
+    </header>
+
+    <br><br><br><br><br><br><br>
+
+    <article class="text-center">
+
+        <hr class="m-auto w-75">
+
+        <section class="shadow w-50 m-auto mt-2">
+            <p class="fs-3">
+                <label for="address" class="fw-bold fs-2">Put your address here:</label>
+                <textarea name="address" id="address" cols="30" rows="5" autofocus placeholder="Please Input your addres here.." class="rounded-3"></textarea>
+            </p>
+            <p>
+                <button class="btn-lg btn-secondary p-3 fs-4" type="button" onclick="CashPurchase()">PURCHASE</button>
+            </p>
+        </section>
+    </article>
+    
+    <br><br><br>
+
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="btn">facebook</a>
+            <a href="#" class="btn">twitter</a>
+            <a href="#" class="btn">instagram</a>
+            <a href="#" class="btn">pinterest</a>
+            <a href="#" class="btn">linkedin</a>
+        </div> 
+
+        <h1 class="credit"> created by <span> &copy; Babasola Goodness </span> all rights reserved</h1>
+
+        <p class="credits">Bon Taste Cucina uses cookie files in order to improve your online experience and for analytics. You can disable cookies in your browser settings at any moment.</p>
+    </section>
+
+
+    <!-- Scroll top button -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+
+
+    <!-- custom js file link -->
+    <script src="cart.js"></script>
+</body>
+</html>
